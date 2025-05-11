@@ -1,0 +1,59 @@
+/* Container styling */
+.topnav {
+  background-color: #1c1c1e;  /* Similar dark background */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 60px;  /* Similar height */
+}
+
+/* Adjust body margin to accommodate the fixed navbar */
+body {
+  margin-top: 60px;  /* Matches the navbar height */
+  background-color: #f0f0f0;
+}
+
+/* Logo styling */
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 25px;  /* Even spacing */
+  flex: 1;  /* Takes remaining space */
+  justify-content: center;
+}
+
+/* Navigation links */
+.nav-links a {
+  color: #f2f2f2;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #1c1c1e;
+  color: #333;
+}
+
+.nav-links a.active {
+  background-color: #1c1c1e;
+  color: white;
+}
