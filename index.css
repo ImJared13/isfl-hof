@@ -57,3 +57,13 @@ body {
   background-color: #1c1c1e;
   color: white;
 }
+
+img {
+  pointer-events: none;
+}
+
+.Content {
+  margin-top: 60px;  /* Adjust this value to match the navbar height */
+  padding: 20px;
+  text-align: center;
+}
